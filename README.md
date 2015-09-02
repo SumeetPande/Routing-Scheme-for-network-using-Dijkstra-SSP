@@ -2,7 +2,9 @@
 Routing Scheme for network using Dijkstra's SSP
 
 To implement Dijkstra's Single Source Shortest Path (ssp) algorithm for undirected graphs using Fibonacci heaps. To make use the adjacency list representation for graphs.
+
 Structure & Methodology:
+
 The programming for the above part has been implemented in JAVA programming language. Hence the compiler used is the JAVA compiler for the entire code. The main idea behind this implementation is to parse the input text file which happens to store the graphical data and create a graph structure in our project consisting of nodes i.e. vertices and edges and weights for the edges. The graphical representation used is the adjacency list representation. Based on this graphical structure we have applied the Dijkstra’s SSP to calculate the shortest path between any nodes/vertices. The underlying data structure used for the Dijkstra’s SSP algorithm is the Fibonacci heap.
 Step 1: The first primary requirement was to create a graph structure and to populate this graph structure by parsing the sample input files.
 For this purpose we have created three different classes which are as follows:
